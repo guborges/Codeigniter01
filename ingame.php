@@ -1,6 +1,6 @@
 <?php
 Class ingame extends CI_Model {
-	
+//Testando github	
 // Valida se o time tem a quantidade minima de titulares para jogar uma partida.
 public function checkTeam($team){
 	$t1data  = $this->db->query('SELECT * FROM `players` WHERE time_id = "'. $team . '" AND titular = "1"');
